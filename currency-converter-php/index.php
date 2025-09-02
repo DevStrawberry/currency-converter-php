@@ -26,7 +26,7 @@
         echo "</div>";
     }
 ?>
-<form action="index.php" method="post" onsubmit="return validarValor()">
+<form action="index.php" method="post">
     <p>
         <label for="real_value">Value (R$):</label>
         <input type="number" name="real" id="real_value" min="0" step="0.01" required>
@@ -38,4 +38,5 @@
     </p>
 </form>
 </body>
+
 </html>
